@@ -4,7 +4,7 @@ body {
 }
 
 .hero,
-.footer {
+footer {
   background-color: #1f2937;
 }
 
@@ -15,7 +15,7 @@ body {
   padding-right: 15%;
 }
 
-.header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,10 +33,14 @@ body {
   gap: 20px;
 }
 
-.header-link-text,
-.hero-secondary-text {
+.navigation li,
+.hero-text p {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.hero-text p {
+  margin: 10px 0 5px 0;
 }
 
 .hero-content {
@@ -50,10 +54,11 @@ body {
   flex: 1;
 }
 
-.hero-main-text {
+.hero-text h1 {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
+  margin: 0;
 }
 
 .hero-image {
@@ -67,8 +72,8 @@ body {
   flex: none;
 }
 
-.hero-button,
-.call-to-action-button {
+.hero-text button,
+.call-to-action button {
   background-color: #3882f6;
   color: white;
   padding: 5px 20px 5px 20px;
@@ -77,7 +82,7 @@ body {
   border-radius: 10px;
 }
 
-.hero-button {
+.hero-text button {
   margin-top: 10px;
   border-style: none;
 }
@@ -90,7 +95,7 @@ body {
   padding-right: 20%;
 }
 
-.information-header-text {
+.information h2 {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
@@ -111,7 +116,7 @@ body {
   border: blue solid 2px;
 }
 
-.information-image-text {
+.information-image-container p {
   width: 150px;
 }
 
@@ -165,17 +170,22 @@ body {
   padding-bottom: 40px;
 }
 
-.call-to-action-main-text {
+.call-to-action-text h3 {
   font-size: 18px;
   font-weight: bold;
+  margin: 0;
 }
 
-.call-to-action-button {
+.call-to-action-text p {
+  margin: 10px 0 0 0;
+}
+
+.call-to-action button {
   border-color: white;
   border-style: solid;
 }
 
-.footer {
+footer {
   padding-top: 40px;
   padding-bottom: 40px;
   display: flex;
